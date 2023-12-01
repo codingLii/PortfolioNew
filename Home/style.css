@@ -1,3 +1,7 @@
+:root {
+    --lina: rgb(200,50,78);
+}
+
 *{
     margin:0;
     padding: 0;
@@ -17,7 +21,7 @@ p {
     border: 5px solid black;
 }
 .titles {
-    color: brown;
+    color: var(--lina);
     margin: 50px 30px 30px 50px;
     width:50%;
     text-align: center;
