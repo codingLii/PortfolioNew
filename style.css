@@ -1,5 +1,5 @@
 :root {
-    --lina: rgb(200,50,78);
+    --lina: white;
 }
 
 *{
@@ -9,16 +9,19 @@
 
 
 body {
-    background: antiquewhite;
+    background: black;
 
+}
+h1 {
+    color:var(--lina);
+    text-align: center;
 }
 
 
 p {
-    color:blue;
-    background: darksalmon;
+    color:var(--lina);
     height: 50px;
-    border: 5px solid black;
+    text-align: center;
 }
 .titles {
     color: var(--lina);
