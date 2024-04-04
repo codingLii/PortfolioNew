@@ -2,75 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Frohe Weihnachten!</title>
+    <title>Lina Stawiarski</title>
     <link rel='stylesheet' href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="interaction.js"></script>
 </head>
 <body>
 
-
 <p class = header>
-    Portfolio
+    <a href="#portfolio">Portfolio</a>
 </p >
 
 <p class = header>
-    About
+    <a href="#about">About</a>
 </p>
 <p class = header>
-    Contact
+    <a href="#contact">Contact</a>
 </p>
-<div class = picture>
-    <img src="20230804_212948.jpg">
-</div>
 
 <h1>
     Lina Stawiarski
 </h1>
+<div class=space>
 
+</div>
+<div class="vision">
+<p>
+    "Embracing interdisciplinary approaches to fuel tech-driven innovation. Always eager to learn and to explore vibrant and divers avenues
+    of creativity. A colorful mindset drives open-minded exploration, seeking out new horizons and unconventional solutions to make a positive impact on our planet."
+</p>
+</div>
+<div class=space>
 
+</div>
+<div class=space>
 
-<p class = subtitles>
+</div>
+
+<p class = subtitles, id="portfolio">
     Portfolio
 </p>
-<div class="inline">
-    <div class = items>
-
-    </div>
-
-    <div class = items>
-
-    </div>
-
-    <div class = items>
-
-    </div>
+<div class=space>
 
 </div>
 
 <div class = inline>
-    <p class = abstand>
-        Text adventure
-    </p>
-    <p class = abstand>
-        Text adventure
-    </p>
-    <p class = abstand>
-        Text adventure
-    </p>
+    <img src="sketch-haupt.png" class="items">
+
+    <img src="haupt2.png" class="items">
+
+    <img src="canvas4.png" class="items">
+
+
+</div>
+<div class = inline>
+    <img src="canvas3.png" class="items">
+
+    <img src="Linien3.png" class="items">
+
+    <img src="Linien.png" class="items">
+
+    <img src="Linien2.png" class="items">
+
+</div>
+<div class = inline>
+    <img src="Farben.png" class="items">
+
+    <img src="Farben2.png" class="items">
+
 </div>
 
-<p class = subtitles>
+<p class = subtitles id="about">
     About
 </p>
 <div class = inline>
     <div class = items>
 
     </div>
-
-
-
     <div class = items>
 
     </div>
@@ -81,24 +91,40 @@
 
     </div>
 </div>
-    <div class = inline>
-        <p class = abstand>
+<div class = inline>
+    <div class =abstand>
+        <p>
             Skills
         </p>
-        <p class = abstand>
+    </div>
+        <div class =abstand>
+        <p>
             Experience
         </p>
-        <p class = abstand>
+        </div>
+        <div class =abstand>
+        <p>
             Education
         </p>
-        <p class = abstand>
+        </div>
+        <div class =abstand>
+        <p>
             CV
         </p>
+        </div>
     </div>
-</div>
-<p class = subtitles>
+<p class = subtitles id="contact">
    Contact
 </p>
+<form>
+    <label for="fname">Your Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="femail">Your Email:</label><br>
+    <input type="text" id="femail" name="fname"><br>
+    <label for="ftext">Your Message:</label><br>
+    <input type="text" id="ftext" name="fname"><br>
+    <input type="submit" value="Send">
+</form>
 
 </body>
 </html>
